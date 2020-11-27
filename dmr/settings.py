@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'a$u=km_f8_339i9cr)3+0r4&n30*z*$q%ri!te)6iymnu10wni'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['realestate.localtest.me', 'localhost:80']
 
 # Application definition
 
@@ -124,8 +124,7 @@ USE_TZ = True
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'dmr/static')
+
 ]
 # Media Folder Setting
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
