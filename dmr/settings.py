@@ -138,11 +138,6 @@ MESSAGE_TAGS = {
     messages.INFO: '',
     50: 'critical',
 }
-EMAIL_HOST = 'SMTP.GMAL.COM'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'aelsewe@gmail.com'
-EMAIL_HOST_PASSWORD = 'Salamat40'
-EMAIL_USE_TLS = True
 
 try:
     from local_settings import *
